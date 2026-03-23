@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="Mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="Desktop.css" media="screen and (min-width: 800px)">
+
 </head>
+
+<header>
+    <a class="showNav" href=""></a>
+    <a href="#clicked" class="on"></a>
+    <a href="#" class="off"></a>
+</header>
+
 <body>
-    
+    <nav>
+    <ul>
+        <li><a href="../AS1/index.html">Index</a></li>
+        <li><a href="../AS1/project.html">Project</a></li>
+        <li><a href="../AS1/contact.html">Contact</a></li>
+        <li><a href="../AS1/report.html">Report</a></li>
+        <li><a href="../AS1/videoDemo.html">Video Demonstration</a></li>
+    </ul>
+    </nav>
+
+    <main>
+        <h1>Contact Information</h1>
+        <p>If you would like to get in touch with me, please feel free to reach out through the following contact information:</p>
+        
+           
+    </main>
+
+    <form action="#" method="get">
+        <label for="First Name">First Name:</label>
+        <input type="text" id="First Name" name="First Name" required>
+
+        <label for="Last Name">Last Name:</label>
+        <input type="text" id="Last Name" name="Last Name" required>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required>
+
+        <label for="Phone number">Phone Number:</label>
+        <input type="tel" id="Phone number" name="Phone number" required>
+        
+        
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>

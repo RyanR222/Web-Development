@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 h1 {color:red;
     font-size: 50px;
     text-decoration: underline;
@@ -20,4 +24,34 @@ a {color:black;
 .myClass {
     color: green;
     font-size: 20px;
+}
+
+
+nav {
+    background-color: grey;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav li:hover{
+    color: white;
+}
+
+nav > ul > li {
+    position: relative;
+    width:100%;
+}
+
+nav ul ul{
+    position:absolute;
+    display:block;
+    background-color: grey;
+    width:100%;
+    padding:0;
 }
