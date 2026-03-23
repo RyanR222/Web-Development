@@ -69,6 +69,6 @@ form{
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    row-gap: 0.5em;
+    row-gap: 1.5em;
     width: 400px;
 }
