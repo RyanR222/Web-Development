@@ -11,12 +11,14 @@ body{
     "header"
     "main"
     "footer";
+    
 }
 
 main{
     background-color: white;
     color:black;
     grid-area:main;
+    height: 100vh;
 }
 
 footer{
@@ -77,4 +79,7 @@ li{
     grid-template-rows: auto;
 }
 
+nav:target{
+    display: block;
+}
  
