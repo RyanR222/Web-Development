@@ -56,14 +56,23 @@ header{
 }
 
 nav {
-    display: none;
+    display: block;
     background-color: grey;
     position:fixed;
     top: 0;
     left: 50%;
     width:50%;
-    height: 100vh;
+    height: 60vh;
     
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 0;
 }
 
 li{
@@ -71,6 +80,7 @@ li{
     font-family: helvetica ;
     text-align: center;
     padding: 10px;
+    
 }
 
 .project{
@@ -79,7 +89,20 @@ li{
     grid-template-rows: auto;
 }
 
-nav:target{
+ 
+#clicked .on{
     display: block;
 }
- 
+
+#clicked .off{
+    display: none;
+}
+
+#clicked:target .on{
+    display: none;
+}
+
+#clicked:target .off{
+    display: block;
+}
+
