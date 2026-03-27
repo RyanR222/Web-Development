@@ -12,7 +12,7 @@ body{
     "nav nav nav"
     "main main main"
     "footer footer footer";
-    height: 100vh;
+    height: 120vh;
 }
 
 nav {
@@ -33,12 +33,12 @@ nav li a:hover{
     color: white;
 }
 
-a {color:black;
+a {color:rgb(6, 6, 6);
     font-size: 20px;
     text-decoration: none;
     display:inline-table;
     padding: 10px;
-    
+    ;
 }
 
 li{ font-size: 1.5em ;
@@ -89,8 +89,8 @@ p + p{
 .report{
     border-right: 20em solid black;
     border-left: 18em solid black;
-    border-bottom: 18em solid black;
-    border-top: 5em solid black;
+    border-bottom: 16em solid black;
+    border-top: 4em solid black;
     height:240vh;
 }
 
@@ -105,4 +105,9 @@ iframe{
     height: 20em;}
     
 
-
+a.hyper{
+    color:rgb(26, 26, 166);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+}
