@@ -48,6 +48,9 @@ main{
     background-color: white;
     color:black;
     grid-area:main;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 footer{

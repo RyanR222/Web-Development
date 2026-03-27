@@ -117,3 +117,10 @@ iframe{
 .report{
     border: 1em solid black;
 }
+
+img{
+    width:18em;
+}
+
+h2{
+    margin-top: 1em;}
